@@ -1,0 +1,10 @@
+includes:
+    - /
+volumes:
+    - var
+    - etc
+excludes:
+    - mnt
+    - var/tmp
+    - etc/fstab
+    - proc

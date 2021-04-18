@@ -1,0 +1,13 @@
+includes:
+    - /
+volumes:
+    - var/log/httpd
+    - var/log/mariadb
+    - var/www/html
+    - var/lib/mysql
+excludes:
+    - mnt
+    - var/tmp
+    - etc/fstab
+    - proc
+    - tmp
